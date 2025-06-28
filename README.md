@@ -4,21 +4,26 @@ This is a simple Book Review API built using **FastAPI**, **PostgreSQL**, **SQLA
 
 ## 🚀 Features
 
-- Create and retrieve books.
-- Submit and view reviews for books.
-- Automatically generates docs at `/docs` with Swagger UI.
+- ✅ Create and retrieve books.
+- ✅ Submit and view reviews for books.
+- ✅ Automatic interactive API docs at `/docs` (Swagger UI).
+- ✅ Modular code structure for easy scalability.
+- ✅ Database migrations with Alembic.
 
 ## ⚙️ Tech Stack
 
-- FastAPI
-- SQLAlchemy
-- Alembic
-- PostgreSQL (or SQLite, if preferred)
-- Pydantic (v2-compatible)
+- **FastAPI** – web framework
+- **SQLAlchemy** – ORM for interacting with the database
+- **Alembic** – schema migrations
+- **PostgreSQL** / SQLite – relational database
+- **Pydantic v2** – data validation and serialization
+- **Uvicorn** – lightning-fast ASGI server
+
+---
 
 ## 📦 Setup Instructions
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/book-review-api.git
-   cd book-review-api
+### 1. Clone the repository
+```bash
+git clone https://github.com/heergoutam/book-review-api.git
+cd book-review-api
